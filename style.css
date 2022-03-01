@@ -1,6 +1,43 @@
-.body-container {
-    height: 100vh;
+body {
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.dark-background {
+    background: #1F2937;
+    color: #F9FAFB;
+    flex: 1;
+}
+
+.white-background {
+    background: #F9FAFB;
+    color: #1F2836;
+    flex: 1;
+}
+
+.grey-background {
+    background: #E5E7EB;
+    color: #1F2937;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.square {
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #A4A8B0;
 }
